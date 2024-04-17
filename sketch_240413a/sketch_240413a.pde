@@ -6,7 +6,7 @@ void setup (){
 }
 void draw (){
   println (mouseX + "/" + mouseY);
-  image(img, 400,0);
+  image(img, 0,0);
   
   //aca abajo esta el codigo de la calle
   //codigo lineaa blanca medio
@@ -22,7 +22,7 @@ void draw (){
   
   //codigo calle gris derecha
   triangle (400,400,400,329,566,267);
-  triangle (667,266,619,399,779,400);
+  triangle (667,266,619,400,779,400);
   triangle (687,289,798,375,777,400);
   triangle (799,375,800,400,775,400);
   triangle (668,268,619,400,400,400);
@@ -43,7 +43,7 @@ void draw (){
   fill (109,170,216);
   rect (589,259,45,8);
   fill (127);
-  rect (580,216,62,34);
+  rect (580,212,62,38);
   fill (87);
   rect (594,216,36,14);
   fill (50,0,0);
@@ -52,3 +52,5 @@ void draw (){
   fill (0);
   ellipse (644,234,6,6);
   ellipse (578,234,6,6);
+  
+}
