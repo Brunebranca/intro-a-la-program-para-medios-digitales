@@ -28,6 +28,16 @@ void draw (){
   triangle (668,268,619,400,400,400);
   triangle (668,268,564,267,400,400);
   
+  //agua
+  fill(140,200,240);
+  triangle (558,214,400,236,549,265);
+  triangle (400,235,400,268,538,268);
+  triangle (400,233,506,268,542,259);
+  
+  //pasto chico izq
+  fill (66,107,66);
+  triangle (400,268,462,268,400,282);
+  
   //montaña fondo auto chica
   fill (109,170,216);
   triangle (519,268,628,163,628,267);
@@ -52,5 +62,4 @@ void draw (){
   fill (0);
   ellipse (644,234,6,6);
   ellipse (578,234,6,6);
-  
 }
