@@ -6,7 +6,7 @@ void setup (){
 }
 void draw (){
   println (mouseX + "/" + mouseY);
-  image(img, 400,0);
+  image(img, 0,0);
   
   //aca abajo esta el codigo de la calle
   //codigo linea blanca medio
@@ -23,10 +23,10 @@ void draw (){
   //codigo calle gris derecha
   triangle (400,400,400,329,566,267);
   triangle (667,266,619,400,779,400);
-  triangle (687,289,798,375,777,400);
+  triangle (687,289,798,374,777,400);
   triangle (799,375,800,400,775,400);
   triangle (668,268,619,400,400,400);
-  triangle (668,268,564,267,400,400);
+  triangle (670,266,564,267,400,400);
   
   //nubes
   fill (200);
